@@ -1,0 +1,381 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  padding-top: 70px;
+}
+h1{
+  font-family: 'ABeeZee',sans-serif;
+  font-weight: bolder;
+}
+h2{
+  font-family: 'ABeeZee',sans-serif;
+  font-weight: bold;
+}
+h3{
+  font-family: 'ABeeZee',sans-serif;
+  font-weight: bold;
+}
+h4{
+  font-family: 'ABeeZee',sans-serif;
+  font-weight: bold;
+}
+h5{
+  font-family: 'ABeeZee',sans-serif;
+  font-weight: bold;
+}
+h6{
+  font-family: 'ABeeZee',sans-serif;
+  font-weight: bold;
+}
+p{
+  font-family: 'Poppins',sans-serif;
+}
+/* header styling */
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.h-icons{
+  color: rgb(0, 82, 155);
+  font-size: 25px;
+}
+.h-icons:hover{
+  color: #2f8f2f;
+}
+.logo {
+  height: 65px;
+}
+.navbar-nav .nav-link {
+  color: rgb(0, 82, 155);
+  font-size: 17px;
+}
+.navbar-nav .nav-link:hover {
+  color: #2f8f2f;
+  border-bottom:2px solid #2f8f2f;
+}
+
+.navbar-nav .nav-link.active {
+  color: #2f8f2f;
+  border-bottom: 2px solid #2f8f2f;
+}
+.nav-item a{
+  font-family: 'ABeeZee',sans-serif;
+}
+/*slider styling*/
+.slider-bg {
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img-1 {
+  background-image: url("../images/sliderhome.avif");
+}
+.img-2 {
+  background-image: url("../images/s-cat2.png");
+}
+.img-3 {
+  background-image: url("../images/s-waterusage.png");
+}
+.img-4 {
+  background-image: url("../images/s-latestdevelopments.png");
+}
+.btnlink {
+  text-decoration: none;
+}
+.sliderbtn {
+  background-color: rgb(2, 97, 180);
+  color: white;
+  border-radius: 40px;
+}
+.sliderbtn:hover{
+  background-color: white;
+  color: rgb(2, 97, 180);
+}
+.carousel-item {
+  position: relative;
+}
+.carousel-item button,
+.carousel-item a {
+  position: relative;
+  z-index: 5;
+  pointer-events: auto;
+}
+/*about section styling*/
+ .aboutdiv {
+  background: linear-gradient(135deg,
+  #f4f9ff,
+  #cfe7ff,
+  #8fc9ff
+);
+
+}
+.heading{
+  color: rgb(0, 82, 155);
+}
+.about p {
+  font-size: 20px;
+}
+.aboutheading{
+  color: #3e833e;
+}
+/*categories section styling*/
+.residential , .commercial{
+  background-color:rgb(224, 234, 241);
+  box-shadow: 3px 3px 10px rgb(156, 156, 156);
+}
+.catdiv p{
+  margin-bottom: 0;
+  font-size: 18px;
+}
+.catheading{
+color: rgb(0, 82, 155);
+}
+/* waterusage section styling*/
+.waterusageimg{
+  height: 200px;
+  width: 300px;
+}
+.waterusagecards{
+  background-color: rgb(229, 237, 245);
+  box-shadow: 2px 2px 20px rgb(107, 106, 106);
+  border-radius: 10px;
+}
+/*faqs section*/
+.questions:hover{
+  color: rgb(78, 146, 75);
+  cursor: pointer;
+}
+/* modal box */
+.modal-fullscreen .btn-close {
+  z-index: 1055;
+  position: fixed; 
+  top: 15px;
+  right: 15px;
+}
+/* waterusage detailed pg styling */
+.div1{
+  background-color: rgb(229, 237, 245);
+  box-shadow: 3px 3px 10px rgb(164, 178, 190);
+}
+.div2{
+  background-color: #d2e7d2;
+  box-shadow: 3px 3px 10px rgb(185, 214, 183);
+}
+/* Techniques detailed pg styling */
+.techcards{
+  background-color: rgb(232, 245, 229);
+  box-shadow: 2px 2px 10px rgb(125, 125, 125);
+  border-radius: 10px;
+}
+.techbtn{
+  background-color: rgb(3, 116, 41);
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.techbtn:hover{
+  color: rgb(0, 155, 41);
+  background-color: rgb(236, 248, 235);
+}
+/* techniques dropdown items detailed pg styling */
+.rooftopnav{
+  background-color: rgb(218, 245, 218);
+  box-shadow: 3px 3px 10px rgb(156, 156, 156);
+}
+/* footer styling */
+.footer {
+  background-color: rgb(240, 239, 239);
+  padding: 40px 15px;
+  color: #000;
+}
+.f-heading {
+  color: rgb(0, 82, 155);
+}
+.footer img {
+  width: 250px;
+  height: 100px;
+}
+.about {
+  background-color: rgb(223, 235, 245);
+  box-shadow: 3px 3px 10px rgb(156, 156, 156);
+}
+.footerpara {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.sitebtn {
+  background-color: rgb(2, 97, 180);
+  color: white;
+}
+.sitebtn:hover {
+  background-color: rgb(38, 177, 70);
+}
+.footer-links {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #000;
+}
+.footer-links .active a{
+  color: #2f8f2f;
+  font-weight: bold;
+}
+.footer-links a:hover {
+  color: rgb(0, 82, 155);
+}
+.c-icon {
+  font-size: 20px;
+}
+.contact1 a p{
+  text-decoration: none;
+}
+.icons i {
+  margin-top: 15px;
+  font-size: 30px;
+  margin-right: 15px;
+  color: rgb(0, 82, 155);
+}
+.icons i:hover {
+  color: rgb(40, 167, 69);
+}
+.copyright {
+  font-size: 15px;
+  margin: 20px auto;
+}
+.contact-link {
+  color:black;        
+  text-decoration: none; 
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.contact-link:hover {
+  color: #155d8b;
+}
+/*feedback form styling*/
+.feedbackform {
+  background-color: rgb(229, 237, 245);
+  color: #000;
+  padding: 20px;
+}
+.remarks {
+  color: rgb(231, 226, 226);
+}
+.ff-para {
+  font-weight: 500;
+}
+.feedbackbox {
+  width: 100%;
+  border: none;
+  background-color: white;
+  padding-left: 10px;
+  border: 1px solid rgb(224, 216, 216);
+  border-radius: 10px;
+  resize: none;
+}
+.name {
+  height: 40px;
+  width: 100%;
+  border: none;
+  background-color: white;
+  padding-left: 10px;
+  border: 1px solid rgb(224, 216, 216);
+  border-radius: 10px;
+}
+#feedbackModal .modal-content{
+  background-color: white;
+}
+.feedbackbox::placeholder {
+  color: rgb(158, 152, 152);
+}
+.sitebtn2{
+  background-color: rgb(177, 208, 235);
+  color: black;
+}
+.sitebtn2:hover{
+  background-color: #72af72;
+}
+@media (max-width: 576px) {
+  /* header styling */
+  .logo {
+    height: 70px;
+    width: 170px;
+  }
+  #header-icons {
+    display: none;
+  }
+  /* slider styling */
+  .slider-bg {
+    height: 250px;
+  }
+  .sliderpara{
+    display: none;
+  }
+  /* Img styling */
+  .img {
+    width: 170px;
+    height: 190px;
+    margin-top: 80px;
+  }
+  /*about section styling*/
+  .about {
+    padding: 5px;
+  }
+  .about p {
+    font-size: 14px;
+  }
+  /*rainwaterusage section styling*/
+  .waterusageimg{
+  height: 200px;
+  width: 250px;
+}
+.waterusagecards{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+  /* footer styling */
+  .footer img {
+    height: 70px;
+    width: 170px;
+  }
+  .footerpara {
+    font-size: 15px;
+  }
+  /* feedbackform styling */
+  .feedbackform {
+    padding: 15px;
+    margin: 5px;
+  }
+  .name,
+  .feedbackbox {
+    font-size: 14px;
+    padding: 8px;
+  }
+  #close {
+    top: 5px;
+    right: 5px;
+  }
+  .homepara {
+    display: none;
+  }
+  .rooftopnav{
+  background-color: rgb(218, 245, 218);
+  box-shadow: 3px 3px 10px rgb(156, 156, 156);
+}
+.about .img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+} 
+};

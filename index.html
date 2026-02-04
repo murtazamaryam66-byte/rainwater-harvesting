@@ -1,0 +1,543 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!--google fonts link-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!--font awesome icons link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <!--animation on scroll link-->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <!--external css file link-->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- Header section start-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+    <div class="container-fluid px-3">
+
+      <!-- LOGO -->
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/logo.png" alt="logo" class="logo">
+      </a>
+
+      <!-- TOGGLER -->
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- MENU -->
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto align-items-lg-center text-center">
+
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+
+          <!-- Techniques -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="techniques.html" id="techdropdown" role="button"
+              data-bs-toggle="dropdown">
+              Techniques
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="rooftop.html">Rooftop Harvesting</a></li>
+              <li><a class="dropdown-item" href="surfacerunoff.html">Surface Runoff</a></li>
+              <li><a class="dropdown-item" href="rechargetanks.html">Recharge Pits</a></li>
+              <li><a class="dropdown-item" href="percolationTanks.html">Perculation Tanks</a></li>
+            </ul>
+          </li>
+
+          <!-- Categories -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="categories.html" id="catdropdown" role="button"
+              data-bs-toggle="dropdown">
+              Categories
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="categories.html#residential">Residential</a></li>
+              <li><a class="dropdown-item" href="categories.html#commercial">Commercial</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="waterusage.html">Water Usage</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="latestdevelopments.html">Innovations</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+
+          <!-- SOCIAL ICONS -->
+          <li class="nav-item d-flex justify-content-center gap-3 ms-lg-5 mt-3 mt-lg-0">
+            <a href="https://www.facebook.com"><i class="fa fa-facebook-f h-icons"></i></a>
+            <a href="https://www.instagram.com"><i class="fa fa-instagram h-icons"></i></a>
+            <a href="https://twitter.com"><i class="fa fa-twitter h-icons"></i></a>
+            <a href="https://www.linkedin.com"><i class="fa fa-linkedin-square h-icons"></i></a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- header section end -->
+  <!--carousel/slider section start-->
+  <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active slider-bg img-1 ps-5 pt-5 text-left">
+        <h1 class="text-dark pt-5 mainheading">SAVE WATER, SECURE TOMORROW</h1>
+        <p class="fs-3 text-dark mt-3 sliderpara">Smart rainwater harvesting helps collect, store,<br> and reuse
+          rainwater efficiently. It reduces dependency<br> on main supply, lowers bills, and supports a
+          cleaner,<br>sustainable environment for future generations.</p>
+        <button type="button" class="btn fs-4 px-4 my-3 w-auto sliderbtn" data-bs-toggle="modal"
+          data-bs-target="#videoModal"><i class="fa fa-play-circle me-2"></i>Watch Video</button>
+      </div>
+      <div class="carousel-item slider-bg img-2 ps-5 pt-5 text-left">
+        <h1 class="text-white pt-5 mainheading">SOLUTIONS FOR EVERY SPACE</h1>
+        <p class="fs-3 text-white mt-3 sliderpara">Whether residential or commercial, rainwater harvesting<br> systems
+          can be tailored to different needs,<br> spaces, and water requirements for maximum<br> efficiency.</p>
+        <a href="categories.html"><button type="button" class="btn fs-4 px-4 my-3 sliderbtn">View
+            Categories</button></a>
+      </div>
+      <div class="carousel-item slider-bg img-3 ps-5 pt-5 text-left">
+        <h1 class="text-white pt-5 mainheading">USE WATER THE SMART WAY</h1>
+        <p class="fs-3 text-white mt-3 sliderpara">Efficient water usage ensures minimal wastage.<br> Learn how
+          harvested rainwater can be reused<br> for daily needs, gardening, and cleaning to save<br> freshwater.</p>
+        <a href="waterusage.html"><button type="button" class="btn fs-4 px-4 my-3 sliderbtn">Learn Smart
+            Usage</button></a>
+      </div>
+      <div class="carousel-item slider-bg img-4 ps-5 pt-5 text-left">
+        <h1 class="text-white pt-5 mainheading">PROVEN WATER SAVING TECHNIQUES</h1>
+        <p class="fs-3 text-white mt-3 sliderpara">Explore practical methods like rooftop harvesting,<br> recharge pits,
+          and surface runoff systems that<br> help capture rainwater and recharge groundwater<br> effectively and
+          affordably.</p>
+        <a href="techniques.html"><button type="button" class="btn fs-4 px-4 my-2 sliderbtn">Explore
+            Techniques</button></a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- slider section end -->
+  <!-- about section start -->
+  <h1 class="text-center my-3 heading">ABOUT US</h1>
+  <div class="aboutdiv p-md-3 m-md-3 p-2 m-2">
+    <div class="row">
+      <div class="col-12 col-md-6 p-3">
+        <h3 class="text-center my-1 aboutheading">Who We Are</h3>
+        <p class="fs-5">We are committed to promoting sustainable water management through effective rainwater
+          harvesting solutions. Our goal is to help homes, businesses, and communities reduce water wastage and become
+          more self-reliant. By using modern techniques and eco-friendly practices, we make water conservation simple
+          and practical. We believe every drop of rain is valuable and should be used wisely.We are dedicated to
+          promoting sustainable water management through practical rainwater harvesting solutions.</p>
+      </div>
+      <div class="col-12 col-md-6 ">
+        <img src="assets/images/aboutus.png" alt="about us img" class="w-100 p-3">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-6 ">
+        <img src="assets/images/aboutus2.png" alt="about us img" class="w-100 p-3">
+      </div>
+      <div class="col-12 col-md-6 p-3">
+        <h3 class="text-center my-1 aboutheading">What We Do</h3>
+        <p class="fs-5">We design and promote efficient rainwater harvesting systems, including rooftop collection and
+          groundwater recharge solutions. Our services help meet daily water needs while supporting long-term
+          environmental sustainability.Our focus is on awareness, innovation, and real-world impact. Together, we work
+          towards a water-secure and greener future. If you have questions or need assistance, feel free to reach out at
+          <strong>+92 300 1234567</strong> or visit our contact page.</p>
+      </div>
+    </div>
+
+  </div>
+  <!--about section end-->
+  <!-- categories section start -->
+  <div class="catdiv m-4">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <div class="residential m-md-3 p-md-3 my-1 p-2" data-aos="fade-up">
+          <h3 class="text-center my-3 catheading">Smart Residential Rainwater Harvesting</h3>
+          <img src="assets/images/residential.jpg" alt="residential" class="w-100">
+          <p class="pt-3">Smart residential rainwater harvesting systems allow homes to collect and reuse natural
+            rainwater for everyday purposes such as gardening, cleaning, and flushing. By reducing reliance on
+            municipal water and groundwater sources, these systems help lower utility bills and promote long-term
+            water conservation. They also minimize water runoff, protect natural resources, and support an
+            eco-friendly, self-sustaining lifestyle for modern households.</p>
+          <a href="categories.html#residential" class="btn my-2 sitebtn">View Details →</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="commercial m-md-3 p-md-3 my-1 p-2" data-aos="fade-down">
+          <h3 class="text-center my-3 catheading">Advanced Commercial Rainwater Solutions</h3>
+          <img src="assets/images/commercial.jpg" alt="commercial" class="w-100">
+          <p class="pt-3">Advanced commercial rainwater harvesting solutions are designed to meet the high water
+            demands of offices, industries, and commercial buildings. These systems efficiently capture, store, and
+            manage rainwater for large-scale use, helping organizations reduce operational costs and improve water
+            efficiency. By adopting sustainable water practices, businesses can reduce their environmental impact
+            while meeting regulatory and environmental standards.</p>
+          <a href="categories.html#commercial" class="btn my-2 sitebtn">View Details →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- categories section end -->
+  <!-- Techniques section start -->
+  <div class="techniques mx-5">
+    <h1 class="text-center heading my-5">INNOVATIVE WATER SAVING TECHNIQUES</h1>
+    <div class="row techimg">
+      <div class="col-12 col-md-6">
+        <div class="d-flex" data-aos="fade-in">
+          <img src="assets/images/rooftopharvestingsm.png" alt="" class="w-50 m-1">
+          <img src="assets/images/rechargepitssm.png" alt="" class="w-50 m-1">
+        </div>
+        <div class="d-flex">
+          <img src="assets/images/surfacerunoffsm.png" alt="" class="w-50 m-1">
+          <img src="assets/images/percolationtankssm.png" alt="" class="w-50 m-1">
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <p><strong>Rainwater harvesting includes several effective techniques to manage and conserve water
+            resources.</strong></p>
+        <h6>Rooftop harvesting:</h6>
+        <p>Rooftop Harvesting collects rainwater from building roofs and stores it for household or commercial use. This
+          involves the collection of the rainwater that falls on the roof area of the buildings, which is then diverted
+          to a rainwater filter through a downspout pipe.</p>
+        <h6>Recharge pits:</h6>
+        <p>Recharge pits are shallow, dug-out structures that allow rainwater to slowly seep into the ground,
+          replenishing groundwater levels. They help prevent waterlogging, reduce surface runoff, and support
+          sustainable water management in homes, farms, and urban areas.</p>
+        <h6>Percolation tanks:</h6>
+        <p>Percolation tanks are small to medium-sized reservoirs that store rainwater and allow it to slowly infiltrate
+          into the soil. They help recharge groundwater, control floods, and ensure a steady water supply for
+          agriculture and communities during dry periods.</p>
+        <h6>Surface runoff harvesting:</h6>
+        <p>Surface runoff harvesting captures excess rainwater flowing over land and paved areas. This water can be
+          directed into storage tanks, ponds, or recharge structures, reducing flooding, preventing soil erosion, and
+          making efficient use of otherwise wasted rainwater.</p>
+        <a href="techniques.html" class="btn sitebtn2 my-2">View Details →</a>
+      </div>
+    </div>
+  </div>
+  <!-- Techniques section end -->
+  <!-- rainwater usage section start -->
+  <div class="waterusagesection">
+    <h1 class="text-center my-5 heading">WHY RAINWATER HARVESTING MATTERS?</h1>
+    <div class="row mx-2 my-3">
+      <div class="col-12 col-md-4">
+        <div class="waterusagecards text-center px-2 py-4">
+          <img src="assets/images/waterusage1.jpg" alt="waterusageimg" class="waterusageimg w-100">
+          <h3 class="pt-2">Protects Fresh Water Resource</h3>
+          <p>Rainwater harvesting reduces pressure on groundwater and freshwater sources. By collecting rainwater, we
+            preserve reserves for future generations.</p>
+          <a href="waterusage.html#freshwater" class="btn sitebtn2">Explore More</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="waterusagecards text-center px-2 py-4">
+          <img src="assets/images/waterusage2.jpg" alt="waterusageimg" class="waterusageimg w-100">
+          <h3 class="pt-2">Lowers Water Bills</h3>
+          <p>Using harvested rainwater for gardening, cleaning, and flushing cuts dependence on main water supply and
+            helps reduce monthly costs.</p>
+          <a href="waterusage.html#lowerbill" class="btn sitebtn2">Explore More</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="waterusagecards text-center px-2 py-4"> <img src="assets/images/waterusage3.jpg" alt="waterusageimg"
+            class="waterusageimg w-100">
+          <h3 class="pt-2">Environment-Friendly Solution</h3>
+          <p>Harvesting the rainwater can also minimizes water wastage, controls surface runoff, and supports a
+            sustainable and eco-friendly lifestyle.</p>
+          <a href="waterusage.html#environment" class="btn sitebtn2">Explore More</a>
+        </div>
+      </div>
+    </div>
+    <div class="row mx-2 my-3 row2">
+      <div class="col-12 col-md-4">
+        <div class="waterusagecards text-center px-2 py-4">
+          <img src="assets/images/waterusage4.jpg" alt="waterusageimg" class="waterusageimg w-100">
+          <h3 class="pt-2">Prevent Flooding & Soil Erosion</h3>
+          <p>Proper rainwater collection systems reduce water runoff, preventing urban flooding, protecting soil
+            quality, reducing runoff volume and velocity.</p>
+          <a href="waterusage.html#flooding" class="btn sitebtn2">Explore More</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="waterusagecards text-center px-2 py-4">
+          <img src="assets/images/waterusage5.jpg" alt="waterusageimg" class="waterusageimg w-100">
+          <h3 class="pt-2">Reliable Water Backup</h3>
+          <p>Stored rainwater provides an alternative water source during shortages or dry seasons, ensuring reliable
+            water for daily use.</p>
+          <a href="waterusage.html#reliable" class="btn sitebtn2">Explore More</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="waterusagecards text-center px-2 py-4">
+          <img src="assets/images/waterusage6.jpg" alt="waterusageimg" class="waterusageimg w-100">
+          <h3 class="pt-2">Recharges Groundwater</h3>
+          <p>Rainwater harvesting allows water to seep into the ground, replenishing groundwater levels and improving
+            long-term water availability.</p>
+          <a href="waterusage.html#underground" class="btn sitebtn2">Explore More</a>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center align-items-center mb-3">
+      <button type="button" id="showbtn" class="btn sitebtn m-auto">Show More<i
+          class="fa fa-chevron-down ms-1"></i></button>
+      <button type="button" id="hidebtn" class="btn sitebtn m-auto">Hide<i class="fa fa-chevron-up ms-1"></i></button>
+    </div>
+  </div>
+  <!--rainwater usage section end-->
+  <!-- latest Developments section start -->
+  <div class="ld-div">
+    <h1 class="text-center my-5 heading">LATEST INNOVATIONS IN RAINWATER HARVESTING</h1>
+    <div class="row mx-md-5 mx-2">
+      <div class="col-12 col-md-6">
+        <ul>
+          <li>
+            <h6>Smart Water Monitoring</h6>
+            <p>New digital sensors help track water levels, usage, and quality in real time. This helps households and
+              businesses optimize usage, prevent wastage, and maintain water safety effortlessly.</p>
+          </li>
+          <li>
+            <h6>Advanced Filtration Systems</h6>
+            <p>Modern multi-layer filters remove dust, debris, and bacteria, making stored rainwater safer for
+              reuse.They ensure stored rainwater is safe for irrigation, cleaning, and even limited household use.</p>
+          </li>
+          <li>
+            <h6>Eco-Friendly Storage Tanks</h6>
+            <p>Lightweight, durable, and recyclable tanks are replacing traditional concrete systems.They are easier
+              to install, maintain, and environmentally sustainable.</p>
+          </li>
+          <li>
+            <h6>Urban Rooftop Harvesting</h6>
+            <p>Cities are adopting rooftop harvesting to manage water scarcity, reduce stormwater runoff, and prevent
+              urban flooding. This approach integrates easily with existing infrastructure.</p>
+          </li>
+          <li>
+            <h6>Government & Green Initiatives</h6>
+            <p>New policies, subsidies, and awareness campaigns encourage sustainable water conservation.
+              Community-driven programs are helping schools, offices, and neighborhoods adopt efficient rainwater
+              practices.</p>
+          </li>
+        </ul>
+        <a href="latestdevelopments.html" class="btn sitebtn2 ms-4 my-3">View More →</a>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="imgdiv d-flex m-2"><img src="assets/images/smartwater.jpg" alt="Innovations" class="w-50 me-2">
+          <img src="assets/images/adv-filteration.jpg" alt="innovations" class="w-50">
+        </div>
+        <div class="imgdiv ms-2">
+          <img src="assets/images/storagetanks.jpg" alt="innovations" class="w-100">
+        </div>
+        <div class="imgdiv d-flex m-2"><img src="assets/images/rooftopharvesting.png" alt="Innovations" class="w-50 me-2">
+          <img src="assets/images/Gov-Initiatives.jpg" alt="Innovations" class="w-50">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- latest Developments section end -->
+  <!-- FAQs section start -->
+  <div class="faqs m-md-5 px-5 mb-5">
+    <h1 class="text-center mb-5 mt-md-1 mt-5 heading">FREQUENTLY ASKED QUESTIONS</h1>
+    <h6 class="questions" data-bs-toggle="collapse" data-bs-target="#faq1">What is rainwater harvesting?</h6>
+    <p id="faq1" class="collapse mt-2">Rainwater harvesting is the collection and storage of rainwater for reuse. It
+      reduces dependence on municipal water supply and conserves natural resources.</p>
+    <hr>
+    <h6 class="questions" data-bs-toggle="collapse" data-bs-target="#faq2">How does it save water?</h6>
+    <P id="faq2" class="collapse mt-2">By collecting rainwater, households and businesses can lower consumption from
+      main supply, reduce wastage, and preserve freshwater sources.</P>
+    <hr>
+    <h6 class="questions" data-bs-toggle="collapse" data-bs-target="#faq3">Where can harvested water be used?</h6>
+    <p id="faq3" class="collapse mt-2">It can be used for gardening, cleaning, flushing, and in some cases for
+      drinking after proper filtration.</p>
+    <hr>
+    <h6 class="questions" data-bs-toggle="collapse" data-bs-target="#faq4">What are the common techniques?</h6>
+    <p id="faq4" class="collapse mt-2">Rooftop harvesting, surface runoff collection, recharge pits, percolation
+      tanks, and rain barrels are popular methods</p>
+    <hr>
+    <h6 class="questions" data-bs-toggle="collapse" data-bs-target="#faq5">Does it prevent flooding?</h6>
+    <p id="faq5" class="collapse mt-2">Yes, proper collection reduces surface runoff, minimizes urban flooding, and
+      protects soil from erosion.</p>
+    <hr>
+    <h6 class="questions" data-bs-toggle="collapse" data-bs-target="#faq6">Is it suitable for homes and offices?</h6>
+    <p id="faq6" class="collapse mt-2">Absolutely, systems can be scaled for residential, commercial, or industrial
+      use according to water demand.</p>
+    <hr>
+    <h6 class="questions" data-bs-toggle="collapse" data-bs-target="#faq7">Do I need maintenance?</h6>
+    <p id="faq7" class="collapse mt-2">Minimal maintenance is required, mainly cleaning filters and checking storage
+      tanks to ensure water quality.</p>
+    <hr>
+  </div>
+  <!-- FAQs section end -->
+  <!-- Feedback Modal -->
+  <div class="modal fade" id="feedbackModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h5 class="modal-title heading">Feedback Form:</h5>
+          <!-- close button -->
+          <button type="button" class="btn-close btn-close-dark position-absolute top-0 end-0 m-3"
+            data-bs-dismiss="modal">
+          </button>
+        </div>
+        <form id="feedbackform">
+          <div class="modal-body feedbackform">
+            <label>Name:</label><br><br>
+            <input type="text" name="username" class="form-control mb-3 name" placeholder="Enter your full name"
+              required>
+
+            <p>Please provide your feedback on the quality of our service.</p>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="rating" value="Excellent" required>
+              <label class="form-check-label">Excellent</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="rating" value="Very Good">
+              <label class="form-check-label">Very Good</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="rating" value="Good">
+              <label class="form-check-label">Good</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="rating" value="Average">
+              <label class="form-check-label">Average</label>
+            </div>
+            <div class="form-check mb-3">
+              <input class="form-check-input" type="radio" name="rating" value="Poor">
+              <label class="form-check-label">Poor</label>
+            </div>
+            <p>Do you have suggestions?</p>
+            <textarea name="suggestion" class="form-control feedbackbox" rows="3"
+              placeholder="Type your feedback here..." required></textarea>
+          </div>
+          <div class="modal-footer">
+            <button class="btn sitebtn2" data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn sitebtn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--feedback form section end-->
+  <!--video modal start-->
+  <div class="modal fade" id="videoModal" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content bg-black">
+
+        <!-- close button -->
+        <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3"
+          data-bs-dismiss="modal">
+        </button>
+
+        <!-- video -->
+        <div class="modal-body d-flex justify-content-center align-items-center p-0">
+          <div class="ratio ratio-16x9 w-100 h-100">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Cecsbjb9Zcc?si=c6GGC05dfcupY3N7"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--video modal end-->
+  <!--footer section start-->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+
+        <!-- About website-->
+        <div class="col-lg-4 col-12">
+          <img src="assets/images/logo.png" alt="Logo Image">
+          <p class="footerpara">
+            Collecting, storing and using rainwater to save water,
+            reduce bills and protect the environment.
+          </p>
+          <button class="btn my-3 sitebtn" data-bs-toggle="modal" data-bs-target="#feedbackModal">Send
+            Feedback</button>
+        </div>
+        <!-- site Links -->
+        <div class="col-lg-4 col-12">
+          <h4 class="f-heading">Site Links</h4>
+          <ul class="footer-links">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="techniques.html">Techniques</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="waterusage.html">Water Usage</a></li>
+            <li><a href="latestdevelopments.html">Innovations</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="col-lg-4 col-12">
+            <h4 class="f-heading">Contact Us</h4>
+          <p><i class="fa fa-envelope c-icon">&nbsp;</i>:<a href="mailto:info@example.com" class="contact-link">info@example.com</a>&nbsp;</p>
+          <p> <i class="fa fa-phone c-icon">&nbsp;</i>:<a href="tel:+923001234567" class="contact-link">+92 300 1234567</a>&nbsp;</p>
+          <p><i class="fa fa-map-marker c-icon">&nbsp;</i>:&nbsp; Aptech Scheme # 33</p>
+
+          <div class="icons">
+            <a href="https://www.facebook.com"><i class="fa fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com"><i class="fa fa-linkedin-square"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      </div>
+
+      <hr>
+
+      <p class="text-center copyright">
+        © 2025 Rainwater Harvesting | All Rights Reserved
+      </p>
+  </footer>
+  <!--footer section end-->
+  <!--jquery link-->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+  </script>
+  <!-- AOS JS link-->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <!-- external js file -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
